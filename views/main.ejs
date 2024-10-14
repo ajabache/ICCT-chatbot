@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICCTNIAN SMART BOT</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <aside>
+            <nav>
+                <a href="#user-guide">User Guide</a>
+                <a href="#chat">Chat</a>
+                <a href="/logout">Logout</a>
+            </nav>
+        </aside>
+        <main>
+            <h1>Welcome, <span id="user-name"></span>!</h1>
+            <button id="get-started">Get Started</button>
+            <div id="chat-container" style="display: none;">
+                <div id="chat-messages"></div>
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="Type your message...">
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <script src="/js/chat.js"></script>
+</body>
+</html>
